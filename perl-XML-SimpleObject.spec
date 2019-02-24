@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstrea
 BuildArch: noarch
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(XML::Parser)
+BuildRequires: perl-XML-LibXML
 
 %description
 This is a short and simple class allowing simple object access to a parsed
